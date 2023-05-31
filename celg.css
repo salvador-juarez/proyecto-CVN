@@ -1,0 +1,91 @@
+@media /** media queries a cel grande**/
+(min-device-width: 425px) 
+and (max-device-width: 767px){
+    .cont-ini{
+        display: flex;
+        flex: 50%;
+        flex-direction: column;
+        
+    }
+        img{
+           border-radius: 100%;
+           width: 36%;
+           height: 92%;  
+        margin-top:2vw;
+        margin-left:23vh;
+    
+        }
+        .foto{
+            background-color:rgb(92, 202, 221) ;
+        width: 95%;
+        height: 300px;
+        justify-content: space-evenly;
+        margin-left: 5px;
+        margin-right: 5px;
+        }
+        
+        h1{
+            font-size: 20px;
+            text-align: center;
+        }
+    .h1-p{
+        background-color:rgb(57, 134, 158);
+        width:95%;
+        color: white;
+        margin-left: 5px;
+    }
+    
+     .h1-p p{
+        text-align: center;
+        padding-left:50px;
+        padding-right: 50px;
+        text-align: justify;
+        font-size:14px;
+       
+    } 
+    h2{
+        font-size:17px;
+        text-align: left;
+    }
+    h3{
+    font-size: 15px;
+    text-align: left;
+    }
+    .contactos{
+        display:flex;
+        flex: 50%;
+        flex-direction: column;
+    }
+    p{
+        text-align: left;
+    }
+    
+    .izquierda{
+        background-color:rgb(209, 242, 245) ;
+        width: 95%;
+        height: 800px;
+        padding-left: 120px;
+        padding-right: 100px;
+        margin-left:5px;
+       
+    }
+    
+    .flex-idio{
+    display: flex;
+    width: 29%;
+    height: 100%;
+    }
+    
+    .derecha{
+        background-color:white;
+        width: 95%;
+        height: 900px;
+        padding-left: 60px;
+        padding-right: 60px;
+        text-align:justify;
+        margin-left: 5px;
+    } 
+
+}
+
+

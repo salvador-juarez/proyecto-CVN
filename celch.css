@@ -1,0 +1,88 @@
+@media 
+(min-device-width: 220px)
+and (max-device-width:320px) {
+.cont-ini{
+flex-direction:column;
+}
+.contactos{
+flex-direction:column;
+
+}
+h1{
+font-size:15px;
+}
+
+h2{
+    font-size: 14px;
+}
+h3{
+    font-size: 13px;
+}
+
+.h1-p p{
+    font-size:14px;
+    text-align: center;
+   padding-left:20px;
+    padding-right: 10px; 
+    text-align: justify;
+}
+    
+p{
+    font-size:14px;
+}
+
+/* .img{
+    border-radius: 100%;
+    width: 20px;
+    height: 30px;  
+} */
+img{
+    border-radius: 100%;
+    width: 140PX;
+    height: 90%;  
+  margin-top:2.5vw;
+  margin-left:14vh;
+
+ }
+.h1-p{
+    background-color:rgb(57, 134, 158);
+    width:94%;
+    height: 150px;
+    color: white;
+    text-align: center;
+    margin-left: 5px;
+margin-right: 5px;
+}
+.foto{
+    background-color:rgb(92, 202, 221) ;
+width: 94%;
+height: 200px;
+justify-content: space-evenly;
+margin-left: 5px;
+margin-right: 5px;
+}
+.izquierda{
+   
+    width: 97%;
+    height: 100%;
+    padding-left: 100px;
+    line-height:26.5px;
+}
+.izquierda{
+    background-color:rgb(209, 242, 245) ;
+    width: 94%;
+    height: 750px;
+    padding-left: 35px;
+    padding-right: 25px;
+    margin-left:5px;
+    margin-right: 5px;
+
+}
+.derecha{
+    background-color:white;
+    width: 94%;
+    height: 800px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+}

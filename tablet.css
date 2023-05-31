@@ -1,0 +1,65 @@
+@media /** media queries a tabeta**/
+      (min-device-width: 768px) 
+  and (max-device-width: 1023px) {
+h1{
+    font-size: 20px;}
+    
+    h2{
+        font-size: 15px;
+    }
+    h3{
+        font-size: 14px;
+    }
+    .h1-p p{
+        font-size:14px;
+    }
+    p{
+        font-size:14px;
+    }
+   
+    .img{
+        border-radius: 100%;
+        width: 30px;
+        height: 40px;  
+    }
+    .h1-p{
+        background-color:rgb(57, 134, 158);
+        width:66%;
+        height: 200px;
+        color: white;
+        margin-right:3px;
+    }
+    .foto{
+        background-color:rgb(92, 202, 221) ;
+    width: 30%;
+    height: 200px;
+    justify-content: space-evenly;
+    margin-left:20px;
+    }
+  /*   .izquierda{
+        width: 29%;
+        height: 100%;
+        padding-right: 30px;
+        line-height:29.15px;
+        margin-left:  35px;
+    } */
+    .derecha{
+        background-color:white;
+        width: 66%;
+        height: 100%;
+        padding-left: 100px;
+        padding-right: 100px;
+        text-align:justify;
+        margin-right: 5px;
+    } 
+    .izquierda{
+        background-color:rgb(209, 242, 245) ;
+        width: 30%;
+        height: 725px;
+        padding-left: 30px;
+        padding-right: 30px;
+        line-height:28px;
+        margin-left:20px;
+    }
+    
+    }

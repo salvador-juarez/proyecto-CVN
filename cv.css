@@ -1,0 +1,96 @@
+*{
+    box-sizing:border-box;
+   
+    
+}
+body{
+    font-size: 16px;
+    background-color: burlywood;
+    border: 0;
+    padding: 0; 
+    width: 100vw;
+    height: 100vh;
+}
+.cont-ini{
+    display: flex;
+    flex: 50%;
+    
+}
+    img{
+       border-radius: 100%;
+       width: 50%;
+       height: 90%;  
+   margin-top:1vw;
+    margin-left:13vh;
+
+    }
+    .foto{
+        background-color:rgb(92, 202, 221) ;
+    width: 29%;
+    height: 300px;
+    justify-content: space-evenly;
+    margin-left: 5px;
+    }
+    
+    h1{
+        font-size: 35px;
+        text-align: center;
+    }
+.h1-p{
+    background-color:rgb(57, 134, 158);
+    width:68%;
+    color: white;
+    margin-right: 5px;
+}
+
+ .h1-p p{
+    text-align: center;
+    padding-left:150px;
+    padding-right: 150px;
+    text-align: justify;
+    font-size:20px;
+   
+} 
+h2{
+    font-size:25px;
+    text-align: left;
+}
+h3{
+font-size: 20px;
+text-align: left;
+}
+.contactos{
+    display:flex;
+    flex: 50%;
+}
+p{
+    text-align: left;
+}
+
+.izquierda{
+    background-color:rgb(209, 242, 245) ;
+    width: 29%;
+    height: 800px;
+    padding-left: 30px;
+    padding-right: 30px;
+    line-height:30px;
+    margin-left:5px;
+
+}
+
+.flex-idio{
+display: flex;
+width: 29%;
+height: 100%;
+}
+
+.derecha{
+    background-color:white;
+    width: 68%;
+    height: 799px;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align:justify;
+    margin-right:5;
+} 
+/**se sacaron los css responsiv**/
